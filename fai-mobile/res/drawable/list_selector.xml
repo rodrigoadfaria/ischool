@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- seletores são utilizados para provocar um efeito visual no elemento.
+ Por exemplo, tem uma cor de fundo e muda quando o elemento é pressionado -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/color_eaeaea" android:state_pressed="true" />
+    <item android:drawable="@color/color_eaeaea" android:state_selected="true" />
+    <item android:drawable="@color/color_eaeaea" android:state_activated="true" />
+    <item android:drawable="@android:color/white" />
+</selector>
+

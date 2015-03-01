@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <ImageView
+        android:id="@+id/about_app_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/about_version_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/about_app_icon"
+        android:text="@string/version"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/divider"
+        android:background="@color/color_dadadc"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/about_version_info"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+    
+    <TextView
+        android:id="@+id/about_version_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:text="@string/about_content"
+        android:textAppearance="?android:attr/textAppearanceSmall" />    
+
+</RelativeLayout>

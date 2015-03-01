@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="color_dadadc">#dadadc</color>
+    <color name="color_eaeaea">#eaeaea</color>
+    <color name="color_1d97dd">#1d97dd</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_343434">#343434</color>
+    <color name="color_040404">#040404</color>
+    
+    <color name="color_2298d6">#2298d6</color>
+    <color name="color_20709a">#20709a</color>
+</resources>
